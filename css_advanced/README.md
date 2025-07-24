@@ -1,0 +1,1 @@
+This is a hands-0n project for the CSS week 5 tasks in partial fulfillment for the ALX front end web development course 2025.
