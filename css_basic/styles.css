@@ -16,3 +16,7 @@ aside {
     flex: 1;
     overflow-y: auto;
 }
+.first{
+    color: red;
+    font-weight: bold;
+}
