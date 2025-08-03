@@ -26,3 +26,39 @@ nav ul li a {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+.quote {
+  background-color: #C271FF;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 80px 40px;
+}
+
+.quote-image img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.quote-text {
+  max-width: 600px;
+}
+
+.quote-text blockquote {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.quote-text h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.quote-text p {
+  font-size: 14px;
+  color: white;
+}
