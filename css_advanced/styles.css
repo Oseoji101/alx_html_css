@@ -171,3 +171,36 @@ nav ul li a {
 .membership-btn:hover {
   background-color: #a052cc;
 }
+.faq {
+  background-color: #ffffff;
+  color: #071629;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+.faq-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  text-align: left;
+}
+.faq-item {
+  margin-bottom: 40px;
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #C271FF;
+}
+
+.faq-item p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
