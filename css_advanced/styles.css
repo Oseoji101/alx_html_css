@@ -62,3 +62,65 @@ nav ul li a {
   font-size: 14px;
   color: white;
 }
+.tutorials {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.tutorials h2 {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+.tutorials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+.tutorial-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.tutorial-card h3 {
+  font-size: 20px;
+  color: #071629;
+  margin-bottom: 10px;
+}
+
+.tutorial-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.author h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+.rating i {
+  color: #C271FF;
+  font-size: 14px;
+  margin-right: 2px;
+}
+
+.duration {
+  font-size: 13px;
+  color: #888;
+  margin-top: 5px;
+}
+
