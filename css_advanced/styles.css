@@ -204,3 +204,45 @@ nav ul li a {
   color: #555;
   line-height: 1.6;
 }
+.footer {
+  background-color: #071629;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.footer-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-top img {
+  width: 120px;
+  height: auto;
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons i {
+  font-size: 24px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #C271FF;
+}
+.footer p {
+  font-size: 14px;
+  color: #ccc;
+}
